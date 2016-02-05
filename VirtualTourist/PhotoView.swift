@@ -9,7 +9,7 @@
 import MapKit
 import UIKit
 
-let kVTCellsPerRow = 3.0;
+//let kVTCellsPerRow = 3.0;
 
 class PhotosView: OTMView {
     @IBOutlet var mapView: MKMapView!

@@ -39,6 +39,7 @@ class PhotoModel: NSManagedObject {
         
         // Core Data
         let entity =  NSEntityDescription.entityForName("PhotoModel", inManagedObjectContext: context)!
+
         super.init(entity: entity, insertIntoManagedObjectContext: context)
         
         identifier = NSUUID().UUIDString

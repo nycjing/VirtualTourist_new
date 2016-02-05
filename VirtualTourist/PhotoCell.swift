@@ -9,7 +9,7 @@
 import UIKit
 
 class PhotoCell: UICollectionViewCell {
-    @IBOutlet weak var image: UIImageView!
+       @IBOutlet weak var image: UIImageView!
     func fillWithImage(image:UIImage) {
         self.image.image = image
     }
