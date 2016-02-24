@@ -80,8 +80,8 @@ extension FlickrClient {
                     } else {
                         if let photosDictionary = result.valueForKey(flickrKeys.photos) as? NSDictionary {
                             if let photoArray = photosDictionary.valueForKey(flickrKeys.photo) as? [[String: AnyObject]] {
-                                print(photoArray)
-                                print(pageNumber)
+//                                print(photoArray)
+  //                              print(pageNumber)
                                 completionHandler(images: photoArray, error: nil)
                             } else {
                                 completionHandler(images: nil, error: FlickrClient.errorForMessage("Cannot parse JSON"))

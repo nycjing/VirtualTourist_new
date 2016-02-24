@@ -657,11 +657,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PinModel.swift"
-            timestampString = "475285050.412836"
+            timestampString = "476821077.49677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "storePhotosFromArray(_:completionHandler:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -689,11 +689,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PinModel.swift"
-            timestampString = "475424832.610279"
+            timestampString = "476821077.49677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "storePhotosFromArray(_:completionHandler:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -865,11 +865,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PinModel.swift"
-            timestampString = "475776925.577454"
+            timestampString = "476821077.49677"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "storePhotosFromArray(_:completionHandler:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -929,7 +929,7 @@
                   moduleName = "VirtualTourist"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jingjia/Documents/microbiz/VirtualTourist/VirtualTourist/PhotoView.swift"
-                  timestampString = "476335691.059601"
+                  timestampString = "476821748.051088"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -944,7 +944,7 @@
                   moduleName = "VirtualTourist"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jingjia/Documents/microbiz/VirtualTourist/VirtualTourist/PhotoView.swift"
-                  timestampString = "476335691.059759"
+                  timestampString = "476821748.051896"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -959,7 +959,7 @@
                   moduleName = "VirtualTourist"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jingjia/Documents/microbiz/VirtualTourist/VirtualTourist/PhotoView.swift"
-                  timestampString = "476335691.059923"
+                  timestampString = "476821748.052655"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -974,7 +974,7 @@
                   moduleName = "VirtualTourist"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jingjia/Documents/microbiz/VirtualTourist/VirtualTourist/PhotoView.swift"
-                  timestampString = "476335691.060088"
+                  timestampString = "476821748.053577"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -989,7 +989,7 @@
                   moduleName = "VirtualTourist"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/jingjia/Documents/microbiz/VirtualTourist/VirtualTourist/PhotoView.swift"
-                  timestampString = "476335691.060243"
+                  timestampString = "476821748.055593"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -1022,12 +1022,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PhotoModel.swift"
-            timestampString = "476202620.380993"
+            timestampString = "476759844.900528"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "init(dictionary:context:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtualTourist/PhotoModel.swift"
+            timestampString = "476661614.597167"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "init(entity:insertIntoManagedObjectContext:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

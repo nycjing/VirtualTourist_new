@@ -38,9 +38,14 @@ class PhotoModel: NSManagedObject {
     init(dictionary: [String : AnyObject], context: NSManagedObjectContext) {
         
         // Core Data
-        let entity =  NSEntityDescription.entityForName("PhotoModel", inManagedObjectContext: context)!
+        print(dictionary)
+        let entity =  NSEntityDescription.entityForName("PhotoModel", inManagedObjectContext: context)
+        
 
-        super.init(entity: entity, insertIntoManagedObjectContext: context)
+
+        print(context)
+
+        super.init(entity: entity!, insertIntoManagedObjectContext: context)
         
         identifier = NSUUID().UUIDString
         url = dictionary[Keys.URL] as! String

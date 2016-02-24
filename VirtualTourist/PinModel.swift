@@ -18,7 +18,7 @@ class PinModel: NSManagedObject {
     
     @NSManaged var latitude  : CLLocationDegrees
     @NSManaged var longitude : CLLocationDegrees
-    @NSManaged var photos    : [PhotoModel]
+    @NSManaged var photos    : NSOrderedSet//[PhotoModel]
     
     var coordinate:CLLocationCoordinate2D {
         get {
@@ -46,15 +46,25 @@ class PinModel: NSManagedObject {
             return
         }
         
-        let photos = self.mutableSetValueForKey(Keys.Photos)
-        photos.addObject(photoModel)
+      //  let photos = self.mutableSetValueForKey(Keys.Photos)
+      //  photos.addObject(photoModel)
         photoModel.pin = self
+    
     }
     
     func storePhotosFromArray(array: [[String : AnyObject]], completionHandler: (finished: Bool) -> Void) {
         for photoArray in array {
-            let photoModel = PhotoModel(dictionary: photoArray, context: CoreDataStackManager.sharedInstance().managedObjectContext)
+            print(photoArray)
+      //      print(self.coordinate)
+       //     let contex=CoreDataStackManager.sharedInstance().managedObjectContext
+         //   let entity =  NSEntityDescription.entityForName("PhotoModel", inManagedObjectContext: context)!
+       //     self.init(entity: entity, insertIntoManagedObjectContext: context)
+            
+         //   self.coordinate = coordinate
+
+       let photoModel = PhotoModel(dictionary: photoArray, context: CoreDataStackManager.sharedInstance().managedObjectContext)
             self.addPhoto(photoModel)
+                print("photoModle=\(photoModel)")
         }
         
         CoreDataStackManager.sharedInstance().saveContext()
