@@ -62,9 +62,11 @@ class MapViewController: UIViewController, MKMapViewDelegate, UIGestureRecognize
     }
     
     @IBAction func onMapTapped(sender: UIGestureRecognizer) {
+        
+    
         let mapView = rootView.mapView
         let point = sender.locationInView(mapView)
-        let coordinate = mapView.convertPoint(point, toCoordinateFromView: rootView)
+        let coordinate = mapView.convertPoint(point, toCoordinateFromView: rootView.mapView)
         let annotation = AnnotationModel(coordinate: coordinate)
         //let annotation = MKPointAnnotation()
         //annotation.coordinate = coordinate
@@ -102,7 +104,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, UIGestureRecognize
         case .Ended:
             //save pin to CoreData
             let point = sender.locationInView(mapView)
-            let coordinate = mapView.convertPoint(point, toCoordinateFromView: rootView)
+            let coordinate = mapView.convertPoint(point, toCoordinateFromView: rootView.mapView)
             let annotation = AnnotationModel(coordinate: coordinate)
 
             mapView.removeAnnotation(draggedPin!)
@@ -110,7 +112,8 @@ class MapViewController: UIViewController, MKMapViewDelegate, UIGestureRecognize
             dispatch_async(dispatch_get_main_queue()) {
                 let pin = PinModel(coordinate: coordinate, context: self.sharedContext)
                 annotation.pin = pin
-                CoreDataStackManager.sharedInstance().saveContext()
+            CoreDataStackManager.sharedInstance().saveContext()
+            //     CoreDataStackManager.saveManagedObjectContext(self.sharedContext)
                 
                 //prefetch photos from Flickr
                 FlickrClient.sharedInstance().searchPhotoNearPin(pin) {success, error in

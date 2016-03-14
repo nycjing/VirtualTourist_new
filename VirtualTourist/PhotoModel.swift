@@ -9,6 +9,8 @@
 import CoreData
 import UIKit
 
+@objc(PhotoModel)
+
 class PhotoModel: NSManagedObject {
     
     struct Keys {
@@ -27,7 +29,9 @@ class PhotoModel: NSManagedObject {
         }
         
         set {
-            FlickrClient.Caches.imageCache.storeImage(newValue, withIdentifier: identifier)
+            
+            FlickrClient.Caches.imageCache.storeImage(image, withIdentifier: identifier)
+            //FlickrClient.Caches.imageCache.storeImage(newValue, withIdentifier: identifier)
         }
     }
     
@@ -38,14 +42,10 @@ class PhotoModel: NSManagedObject {
     init(dictionary: [String : AnyObject], context: NSManagedObjectContext) {
         
         // Core Data
-        print(dictionary)
-        let entity =  NSEntityDescription.entityForName("PhotoModel", inManagedObjectContext: context)
+        let entity =  NSEntityDescription.entityForName("PhotoModel", inManagedObjectContext: context)!
         
 
-
-        print(context)
-
-        super.init(entity: entity!, insertIntoManagedObjectContext: context)
+        super.init(entity: entity, insertIntoManagedObjectContext: context)
         
         identifier = NSUUID().UUIDString
         url = dictionary[Keys.URL] as! String

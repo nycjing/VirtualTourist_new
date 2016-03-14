@@ -139,16 +139,27 @@ class CoreDataStackManager {
     
     // MARK: - Core Data Saving support
     
+    class func saveManagedObjectContext(managedObjectContext:NSManagedObjectContext)->Bool{
+        do {
+            try managedObjectContext.save()
+            return true
+        } catch _ {
+            return false
+        }
+    }
+    
     func saveContext() {
-
-        if managedObjectContext.hasChanges {
+     //   print("context has changes to save: \(managedObjectContext.hasChanges)")
+        dispatch_async(dispatch_get_main_queue()){
+      if self.managedObjectContext.hasChanges {
             do {
-                try managedObjectContext.save()
+                try self.managedObjectContext.save()
             } catch {
                 let nserror = error as NSError
                 NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
                 abort()
             }
+       }
         }
     }
     

@@ -10,6 +10,8 @@ import Foundation
 import CoreData
 import MapKit
 
+@objc(PinModel)
+
 class PinModel: NSManagedObject {
     
     struct Keys {
@@ -49,25 +51,21 @@ class PinModel: NSManagedObject {
       //  let photos = self.mutableSetValueForKey(Keys.Photos)
       //  photos.addObject(photoModel)
         photoModel.pin = self
-    
     }
     
     func storePhotosFromArray(array: [[String : AnyObject]], completionHandler: (finished: Bool) -> Void) {
         for photoArray in array {
-            print(photoArray)
-      //      print(self.coordinate)
-       //     let contex=CoreDataStackManager.sharedInstance().managedObjectContext
-         //   let entity =  NSEntityDescription.entityForName("PhotoModel", inManagedObjectContext: context)!
-       //     self.init(entity: entity, insertIntoManagedObjectContext: context)
+            dispatch_async(dispatch_get_main_queue()){
+            let photoModel = PhotoModel(dictionary: photoArray, context: CoreDataStackManager.sharedInstance().managedObjectContext)
             
-         //   self.coordinate = coordinate
-
-       let photoModel = PhotoModel(dictionary: photoArray, context: CoreDataStackManager.sharedInstance().managedObjectContext)
+           
             self.addPhoto(photoModel)
-                print("photoModle=\(photoModel)")
-        }
+                }
+            
         
-        CoreDataStackManager.sharedInstance().saveContext()
+        
+       CoreDataStackManager.sharedInstance().saveContext()
+        }
         
         completionHandler(finished: true)
     }
