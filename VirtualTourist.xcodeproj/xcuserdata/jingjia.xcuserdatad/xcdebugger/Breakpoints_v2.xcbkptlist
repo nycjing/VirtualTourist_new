@@ -433,11 +433,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/MapViewController.swift"
-            timestampString = "476200877.692434"
+            timestampString = "477986000.108735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "onMapTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -449,11 +449,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/MapViewController.swift"
-            timestampString = "475282239.550662"
+            timestampString = "477986000.108735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "onMapTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -465,11 +465,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/MapViewController.swift"
-            timestampString = "476200877.692434"
+            timestampString = "477986000.108735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
             landmarkName = "onMapTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -481,11 +481,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/MapViewController.swift"
-            timestampString = "476200877.692434"
+            timestampString = "477986000.108735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "onMapTapped(_:)"
             landmarkType = "5">
             <Locations>
@@ -529,11 +529,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/MapViewController.swift"
-            timestampString = "476200877.692434"
+            timestampString = "477986000.108735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "onMapTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -545,11 +545,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/MapViewController.swift"
-            timestampString = "476200877.692434"
+            timestampString = "477986000.108735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "onMapTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -561,11 +561,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/MapViewController.swift"
-            timestampString = "476200877.692434"
+            timestampString = "477986000.108735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "onMapTapped(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VirtualTourist/MapViewController.swift"
+            timestampString = "479065991.054309"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
             landmarkName = "onMapTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -577,27 +593,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/MapViewController.swift"
-            timestampString = "476200877.692434"
+            timestampString = "477986000.108735"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "onMapTapped(_:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "VirtualTourist/MapViewController.swift"
-            timestampString = "476200877.692434"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
             landmarkName = "onMapTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -609,11 +609,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PinModel.swift"
-            timestampString = "475285007.723817"
+            timestampString = "479072044.553466"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "PinModel"
             landmarkType = "3">
          </BreakpointContent>
@@ -625,11 +625,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PinModel.swift"
-            timestampString = "475285014.956074"
+            timestampString = "479072044.553466"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "init(coordinate:context:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -641,11 +641,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PinModel.swift"
-            timestampString = "475285020.536105"
+            timestampString = "479072044.553466"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "PinModel"
             landmarkType = "3">
          </BreakpointContent>
@@ -657,11 +657,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PinModel.swift"
-            timestampString = "476821077.49677"
+            timestampString = "479244375.12329"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "storePhotosFromArray(_:completionHandler:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -673,11 +673,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PinModel.swift"
-            timestampString = "475285057.003068"
+            timestampString = "479072044.553466"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "addPhoto(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -689,11 +689,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PinModel.swift"
-            timestampString = "476821077.49677"
+            timestampString = "479244375.12329"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "storePhotosFromArray(_:completionHandler:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -701,15 +701,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PhotoViewController.swift"
-            timestampString = "475773252.817238"
+            timestampString = "480335273.258914"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "148"
-            endingLineNumber = "148"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
             landmarkName = "collectionView(_:didSelectItemAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -817,11 +817,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/MapViewController.swift"
-            timestampString = "476200877.692434"
+            timestampString = "479065991.054309"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "onMapTapped(_:)"
             landmarkType = "5">
             <Locations>
@@ -865,11 +865,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PinModel.swift"
-            timestampString = "476821077.49677"
+            timestampString = "479244375.12329"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "storePhotosFromArray(_:completionHandler:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -928,8 +928,8 @@
                   symbolName = "VirtualTourist.PhotosView.photosCollectionView.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UICollectionView&gt;"
                   moduleName = "VirtualTourist"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jingjia/Documents/microbiz/VirtualTourist/VirtualTourist/PhotoView.swift"
-                  timestampString = "476821748.051088"
+                  urlString = "file:///Users/jingjia/Downloads/VirtualTourist_new-master/VirtualTourist/PhotoView.swift"
+                  timestampString = "479071191.595687"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -943,8 +943,8 @@
                   symbolName = "VirtualTourist.PhotosView.photosCollectionView.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UICollectionView&gt;"
                   moduleName = "VirtualTourist"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jingjia/Documents/microbiz/VirtualTourist/VirtualTourist/PhotoView.swift"
-                  timestampString = "476821748.051896"
+                  urlString = "file:///Users/jingjia/Downloads/VirtualTourist_new-master/VirtualTourist/PhotoView.swift"
+                  timestampString = "479071191.595957"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -958,8 +958,8 @@
                   symbolName = "VirtualTourist.PhotosView.photosCollectionView.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UICollectionView&gt;"
                   moduleName = "VirtualTourist"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jingjia/Documents/microbiz/VirtualTourist/VirtualTourist/PhotoView.swift"
-                  timestampString = "476821748.052655"
+                  urlString = "file:///Users/jingjia/Downloads/VirtualTourist_new-master/VirtualTourist/PhotoView.swift"
+                  timestampString = "479071191.596173"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -973,8 +973,8 @@
                   symbolName = "VirtualTourist.PhotosView.init (VirtualTourist.PhotosView.Type)(frame : __C.CGRect) -&gt; VirtualTourist.PhotosView"
                   moduleName = "VirtualTourist"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jingjia/Documents/microbiz/VirtualTourist/VirtualTourist/PhotoView.swift"
-                  timestampString = "476821748.053577"
+                  urlString = "file:///Users/jingjia/Downloads/VirtualTourist_new-master/VirtualTourist/PhotoView.swift"
+                  timestampString = "479071191.596364"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -988,8 +988,8 @@
                   symbolName = "VirtualTourist.PhotosView.init (VirtualTourist.PhotosView.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;VirtualTourist.PhotosView&gt;"
                   moduleName = "VirtualTourist"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jingjia/Documents/microbiz/VirtualTourist/VirtualTourist/PhotoView.swift"
-                  timestampString = "476821748.055593"
+                  urlString = "file:///Users/jingjia/Downloads/VirtualTourist_new-master/VirtualTourist/PhotoView.swift"
+                  timestampString = "479071191.596532"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -1022,11 +1022,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "VirtualTourist/PhotoModel.swift"
-            timestampString = "476759844.900528"
+            timestampString = "479364572.196223"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "init(dictionary:context:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -1037,13 +1037,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "VirtualTourist/PhotoModel.swift"
-            timestampString = "476661614.597167"
+            filePath = "VirtualTourist/MapViewController.swift"
+            timestampString = "479070638.438063"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "init(entity:insertIntoManagedObjectContext:)"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "onMapTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
