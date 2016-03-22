@@ -8,7 +8,7 @@
         <!--Map View Controller-->
         <scene sceneID="Dqu-6a-nME">
             <objects>
-                <viewController id="xlY-iq-M6u" customClass="MapViewController" customModule="VirtualTourist" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="MapViewController" storyboardIdentifier="MapViewController" id="xlY-iq-M6u" customClass="MapViewController" customModule="VirtualTourist" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9NC-pv-Ux4"/>
                         <viewControllerLayoutGuide type="bottom" id="xZU-9Y-DQc"/>
@@ -77,7 +77,7 @@
                                     <navigationItem title="Title" id="aZD-uQ-wEk">
                                         <barButtonItem key="leftBarButtonItem" title="Done" id="bO0-0j-PDm">
                                             <connections>
-                                                <action selector="closeView:" destination="4I4-AG-7gG" id="ad5-iE-7pF"/>
+                                                <action selector="done" destination="4I4-AG-7gG" id="3Wm-G7-POL"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -96,11 +96,11 @@
                                     <rect key="frame" x="0.0" y="0.0" width="595" height="300"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCell" id="xgH-8G-xOW" customClass="PhotoCell" customModule="VirtualTourist" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="PhotoCell" reuseIdentifier="PhotoCell" id="xgH-8G-xOW" customClass="PhotoCell" customModule="VirtualTourist" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="112" height="98"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -136,7 +136,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HXp-Sm-MN7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="kzs-Ou-vCp"/>
             </objects>
-            <point key="canvasLocation" x="1031" y="-149"/>
+            <point key="canvasLocation" x="867" y="-109"/>
         </scene>
     </scenes>
 </document>

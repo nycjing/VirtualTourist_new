@@ -152,7 +152,8 @@ struct Constants {
 // MARK: - Methods
 struct Methods {
     static let Api_Key = "api_key"
-    static let Accuracy = "11"
+  //  static let Accuracy = "11"
+    static let Accuracy = "9"
     static let Nojsoncallback = "nojsoncallback"
     static let FlickrMethod = "flickr.photos.search"
     static let Format = "json"

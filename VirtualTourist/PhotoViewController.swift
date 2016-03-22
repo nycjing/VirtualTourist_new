@@ -75,6 +75,8 @@ class PhotosViewController: UIViewController, MKMapViewDelegate, UICollectionVie
             dispatch_async(dispatch_get_main_queue()) {
                 for photo in photos {
                     CoreDataStackManager.sharedInstance().delete(photo)
+                    CoreDataStackManager.sharedInstance().saveContext()
+                    
                 }
             }
         }
@@ -98,10 +100,15 @@ class PhotosViewController: UIViewController, MKMapViewDelegate, UICollectionVie
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         let count = self.fetchedResultsController.sections![section].numberOfObjects
+ //       if count == 0 {rootView.loadingView.show(<#T##rootView: UIView##UIView#>)}
         let needHideLabel = count > 0
+        rootView.noImagesLabel.text="loading"
         rootView.showNoImagesLabel(needHideLabel)
+
         
         return count
+        
+
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
@@ -138,7 +145,6 @@ class PhotosViewController: UIViewController, MKMapViewDelegate, UICollectionVie
     
         
         cell.fillWithImage(image!)
-        print("test4")
         return cell
     }
     
@@ -149,7 +155,8 @@ class PhotosViewController: UIViewController, MKMapViewDelegate, UICollectionVie
             CoreDataStackManager.sharedInstance().delete(photoModel)
             
             CoreDataStackManager.sharedInstance().saveContext()
-            // CoreDataStackManager.saveManagedObjectContext(self.sharedContext)
+            self.rootView.noImagesLabel.text="no image"
+    
         }
     }
     

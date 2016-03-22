@@ -30,8 +30,8 @@ class PhotoModel: NSManagedObject {
         
         set {
             
-            FlickrClient.Caches.imageCache.storeImage(image, withIdentifier: identifier)
-            //FlickrClient.Caches.imageCache.storeImage(newValue, withIdentifier: identifier)
+          //  FlickrClient.Caches.imageCache.storeImage(image, withIdentifier: identifier)
+            FlickrClient.Caches.imageCache.storeImage(newValue, withIdentifier: identifier)
         }
     }
     

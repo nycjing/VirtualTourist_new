@@ -90,6 +90,10 @@
             argument = "-com.apple.CoreData.ConcurrencyDebug 1"
             isEnabled = "YES">
          </CommandLineArgument>
+         <CommandLineArgument
+            argument = "CoreData: annotation: Core Data multi-threading assertions enabled."
+            isEnabled = "YES">
+         </CommandLineArgument>
       </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
